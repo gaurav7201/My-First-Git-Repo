@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Notes</title>
+</head>
+<body>
+    <h1><b>Hello World</b> </h1> 
+    <p>Hi, My name is <b>Gaurav Anand</b>, and I am studying <i><b><strong>HTML</strong></b></i><br>
+    These are HTML Notes coded on VS Code, for reference check VS Code.</p>
+    <hr>
+
+<h1><b>What is HTML?</b></h1>    
+<p><b>HTML (HyperText Markup Language)</b> it is markup as well as a structure language that  is used to create structure of a web page or a web application. HTML has already predefined tags you don't need to start from writing tags.<br>
+   Also Html doesn't show any errors  even if there are mistakes in the code, because browsers tend to "forgive" minor syntax errors and try to render the page as best they can, meaning you might see a page load even with incorrect HTML, although it might not look as intended; to identify potential issues, you need to use a dedicated HTML validator tool.
+<ol>
+    <li><b>HyperText</b> - Hypertext refers to text with hyperlinks. It allows users to navigate between documents or web pages through links.</li>
+    <li><b>Markup Language</b> - A markup language is a set of rules used to define the structure and presentation of text. HTML uses markup to annotate text with tags that define its structure and appearance.</li><br>
+</ol><hr></p>
+
+<h1>Basic HTML Elementary</h1><p><b>Tags hold the elements, elements holds the content.<br></b>
+    <b>< ></b>- Opening Tag<br>
+    <b>< / ></b>- Closing Tag<br>
+    <b>< element > Content < /element></b> <br><ul>
+    <li><b>Tags</b>- HTML tags are like keywords which defines that how web browser will format and display the content. </li>
+    <li><b>Elements</b>- An HTML element is a component of an HTML document that tells a web browser how to structure and interpret a part of the HTML document. HTML elements can contain formatting instructions, semantic meaning, and content.</li>
+    <li><b>Attributes</b>- HTML attributes are special words which provide additional information about the elements or attributes are the modifier of the HTML element.</li>
+    <li><b>< id ></b>- Uniquely identifies an element on the page. Used for javascript manipulation and css styling.</li>
+</ul>
+</p>
+<hr>
+
+<h1><b>What are Meta Tags?</b></h1>
+    <p>Meta tags are HTML elements that provide information about your webpages to search engines and users.<br>
+       They are also used to make webpages responsive, without this we cannot use media quires. <br> 
+       They go in the < head > section of your page. </p> <hr>
+
+<h1><b>HTML Document Structure Tags</b></h1>
+     <img src="Screenshot 2024-10-10 141401.png">
+     <ol>
+        <li><b>< !DOCTYPE html ></b> - It is not an html tag, This is the document type declaration. It tells the browser that the document is in HTML5.<br>
+        <li><b>< html ></b> - This tag represents the root of an HTML document, this tag is the container for all other HTML elements (except for the < !DOCTYPE> tag).<br>
+        <li><b>< head ></head></b> - Contains metadata about the document, such as its title, linked CSS, and any other external resources.<br>
+        <li><b>< body ></b> - Contains the actual content of the webpage, such as text, images, links, etc.<br>
+     </ol>
+     <hr>
+
+     <h1>Semantic Elements</h1><p> Semantic elements are meaningful elements which provide the meaning to the content, helping both browsers and developers understand the structure. For ex- Forms, lists, tables</p><hr>
+     <h1>Non Semantic Elements</h1><p>Meaningless elements are called Non Semantic elements. For ex - < div >,< span ></span></p><hr>
+     <h1>Void Elements</h1><p> Elements which doesn't have a closing tag. For ex- < hr >< br ></p>
+     <hr>
+     
+     <h1>< !-- Comment Tag--></h1><p> The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers. You can use comments to explain your code, which can help you when you edit the source code at a later date.<br></p>       
+     <!--This is an example of comment code-->
+     <hr>
+
+<h1>Types of Elements</h1>
+<p><ol>
+    <li><b>Block Elements</b><ul>
+        <li>It Occupies 100% width</li>
+        <li>It never makes same line</li>
+        <li>It always comes with a new line</li>
+    </ul>
+    <b><li>Inline element</li></b><ul>
+        <li>It occupies necessary width only</li>
+        <li>It never makes next line</li>
+        <li>It every time comes in a same line</li></ul></li>
+</ol>
+<hr>
+
+<h1><b>Block Elements</b></h1>
+<ul>
+    <li>It Occupies 100% width</li>
+    <li>It never makes same line</li>
+    <li>It always comes with a new line</li>
+</ul>
+     <ol>
+        <li><b>< header ></b>- Represents the header section of a webpage.,<br>
+        <img src="Screenshot 2024-10-05 173217.png"></li><br>
+        <li><b>< footer ></b>- Represents the footer section of a webpage.<br>
+        <img src="Screenshot 2024-10-05 173445.png"></li><br>
+        <li><b>< h1 > to < h6 > Heading tag</b>- Headings used to define the titles or subtitles in HTML, where < h1 > is the most important and < h6 > the least important.<br>
+        <img src="Screenshot 2024-10-01 000927.png"></li><br>
+        <li><b>< p > Paragraph tag</b>- Paragraph tag. Defines a block of text or a paragraph.<br>
+        <img src="Screenshot 2024-10-01 001148.png"></li><br>
+        <li><b>< nav ></b>- Defines a section containing navigation links.<br>
+        <img src="Screenshot 2024-10-05 173704.png"></li><br>
+        <li><b>< article ></b>- Represents a self contained, independent piece of content.<br>
+        <img src="Screenshot 2024-10-05 175538.png"></li><br>
+        <li><b>< section ></b>- Groups related content into sections.<br>
+        <img src="Screenshot 2024-10-05 175820.png"></li><br>
+        <li><b>< aside ></b>- Defines secondary content, such as sidebars.<br>
+        <img src="Screenshot 2024-10-05 175834.png"></li><br>
+        <li><b>< div ></b>- This tag defines a division or a section in an HTML document. The tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. <br>
+        <img src="Screenshot 2024-11-13 160243.png"></li><br>
+        <li><b>< fieldset ></fieldset></b>- We can make border with just a tag. <fieldset>Lorem</fieldset> <br>
+        <img src="Screenshot 2024-11-20 123711.png" alt=""> </li><br>
+        <li><b>< legend ></b>- It is used to give title to fieldset. <fieldset>Lorem<legend>Title</legend></fieldset><br>
+        <img src="Screenshot 2024-11-20 124031.png" alt=""></li><br>
+        <li><b>< Blockquote ></b> - It will leave space on the left and right ends of the content. <blockquote>lorem</blockquote>
+        <img src="Screenshot 2024-11-20 124254.png" alt=""></li> <br>
+        <li><b>< figure ></b> - Same like blockquote it just leaves space on both ends of an image. <br>
+        <figure><img src="Screenshot 2024-11-20 124618.png" alt=""></figure> </li><br>
+        <li><b>< figcaption ></b> - It is used to give title to an image. <br>
+        <figure><figcaption>Title</figcaption><img src="Screenshot 2024-11-20 124618.png" alt=""></figure></li>
+        <li><b>< script ></b>- It is used to use javascript inside of HTML5. 
+        <script>
+        var x=10 
+        var y=10
+         console.log(x+y)
+         </script><br>
+        <img src="Screenshot 2024-11-20 125535.png" alt=""></li> <br>
+        <li><b>< noscript ></b> - When javascript is not supported in the browser at that that time then noscript is triggered. <noscript>Sorry, your browser doesnt supposrt javascript.</noscript> <br>
+        <img src="Screenshot 2024-11-20 131127.png" alt=""></li> <br>
+        <li><b>< pre ></b> - This tag is used to display text on a web page just like it is written inside the HTML script. <br>
+        <pre>This tag is used to display text on a web page just like it is written inside the HTML script.</pre>
+        <img src="Screenshot 2024-11-20 131705.png" alt=""></li>
+        
+     </ol>
+<hr>
+
+<h1><b>Inline Elements</b></h1>  
+<ul>
+    <li>It occupies necessary width only</li>
+    <li>It never makes next line</li>
+    <li>It every time comes in a same line</li></ul>
+<ol>
+    <li><b>< b ></b> - <b>Used to make words bold.</b><br>
+    <img src="Screenshot 2024-10-01 122654.png"></li><br>    
+    <li><b>< i ></i></b> - <i>Used to make words italic.</i><br>
+    <img src="Screenshot 2024-10-01 122848.png"></li><br>
+    <li><b>< br > Line break</b> - Inserts a new line within the text.<br>
+    <img src="Screenshot 2024-10-01 001432.png"></li><br>
+    <li><b>< hr > Horizontal line/rule</b>- Creates a thematic line/break (a horizontal line) in the content.<br>
+    <img src="Screenshot 2024-10-01 001835.png"></li><br>
+    <li><b>< q ></b>- Used to <q>quote</q> a word. <br>
+    <img src="Screenshot 2024-11-20 151720.png" alt=""></li>
+    <li><b>< span ></b> - Used for inline styling and organization. <p>Lorem <span style="color: red;">ipsum</span></p>
+    <img src="Screenshot 2024-11-20 143708.png" alt=""></li> <br>
+    <li><b>< a > Anchor tag</b> - Used to create hyperlinks. The href attribute contains the URL of the linked resource.<br>
+    <img src="Screenshot 2024-10-01 002347.png"></li><br>
+    <li><b>< strong ></b> - <strong>Strong importance (typically renders as bold but has semantic meaning).</strong><br>
+    <img src="Screenshot 2024-10-01 143752.png"></li><br>
+    <li><b>< em > Emphasized text</b>- <em>Renders as italic but has semantic meaning.</em> <br>
+    <img src="Screenshot 2024-11-20 133100.png"></li><br>
+    <li><b>< mark ></b> - <mark>Highlights text.</mark> <br>
+    <img src="Screenshot 2024-10-01 144427.png"></li><br>
+    <li><b>< small ></b> - <small>Smaller text</small><br>
+    <img src="Screenshot 2024-10-01 160257.png"></li><br>
+    <li><b>< big ></b> - <big>Bigger Text</big> <br>
+    <img src="Screenshot 2024-11-20 133533.png" alt=""></li><br>
+    <li><b>< strike ></b> - Used to <strike>strike</strike>  out a word. <br>
+    <img src="Screenshot 2024-11-20 133744.png" alt=""></li><br>
+    <li><b>< code >< kbd >< samp ></b> - <kbd>keyboard style font</kbd> <br>
+    <img src="Screenshot 2024-11-20 150637.png" alt=""></li> <br>
+    <li><b>< bdo ></b> - Biderctional Overider - It is used to reverse the order. <bdo dir="rtl">Lorem ipsum dolor sit amet</bdo><br>
+    <img src="Screenshot 2024-11-20 134032.png" alt=""></li><br>
+    <li><b>< abbr ></b> - It is used to show full form of the abbreviation. <p>I am studying <abbr title="Hyper Text Markup Language">HTML</abbr> </p>
+    <img src="Screenshot 2024-11-20 134445.png" alt=""> </li>  <br>
+    <li><b>< sub ></b>- <sub>Subscript text</sub><br>
+    <img src="Screenshot 2024-11-20 152325.png"></li><br>
+    <li><b>< sup ></b>- <sup>Superscript text</sup><br>
+    <img src="Screenshot 2024-11-20 152339.png"></li><br>
+    <li><b>< button ></b> - Used to create a button. <button>Button</button><br>
+    <img src="Screenshot 2024-11-20 150845.png" alt=""></li><br>
+    <li><b>< input ></b> - is used to create interactive input fields within a form, allowing users to enter data like text, numbers, dates, or make selections through various input types like text boxes, checkboxes, radio buttons, and more, essentially collecting user information on a webpage. <br>
+          <input type="text" name="" id="">
+          <input type="button" value="Submit">
+          <input type="submit" name="" id="">
+          <input type="reset" name="" id="">    <br>
+    <img src="Screenshot 2024-11-20 151530.png" alt=""></li> <br>
+    <li><b>< select ></b> - It is used to create a dropdown list. <br>
+    <img src="Screenshot 2024-11-20 153019.png" alt=""><br>
+    <select>
+        <option>__Select__</option>
+        <option>HTML</option>
+        <option>CSS</option>
+    </select>
+</li>
+</ol>
+<hr> 
+
+<h1>What is an ID and Class tag</h1>
+<ol>
+    <li><b>ID</b> - An ID is an attribute, a unique identifier assigned to only one HTML element within a page. It is often used for styling and javascript manipulations</li><br>
+    <li><b>Class</b> - The class attribute lets you give the same name to multiple html elements. That way, you can easily change their look and behavior all at once. Classes are not unique and can be assigned to multiple elements. They are generally used for applying the same styles or behaviors to a group of elements</li>
+</ol>
+<hr>
+
+<h1><b>Multimedia Elements</b></h1>
+<ol>
+    <li><b>< img ></b>- Used to insert an image. <br>
+    <img src="Screenshot 2024-11-20 142829.png" alt="image tag"> <br></li><br>
+    <b>*You must give height and width to make a permanent space in the browser</b>
+    <ul><li><b>< Height >< Width ></b> - Used to create height width in an image tag</li></ul> <br>
+    <li><b>alt</b> - Used as a backup incase image is not displayed. <br>
+    <img src="Screenshot 2024-11-20 143026.png" alt=""></li><br>
+    <li><b>< video ></b>- Embeds a video.<br>
+    <img src="Screenshot 2024-10-10 131202.png"></li><br>
+    <li><b>< audio ></b>- Embeds a audio.<br>
+    <img src="Screenshot 2024-10-10 131409.png"></li><br>
+    <li><b>< embed ></b>- Embeds external content such as a video or a plugin.<br>
+    <img src="Screenshot 2024-10-10 131635.png"></li><br>
+    <li><b>< iframe ></b>- Embeds another HTML page within a webpage, such as a youtube video or another website.<br>
+    <img src="Screenshot 2024-10-10 131829.png"></li><br>
+
+</ol>
+<hr>
+
+<h1><b>Lists in HTML</b></h1>
+<ol>
+    <li><b>< ol > Ordered List</b>- Displays a numbered list.<br>
+    <img src="Screenshot 2024-10-01 142348.png"></li><br>
+    <li><b>< ul > Unordered List</b>- Displays a bulleted list.<br>
+    <img src="Screenshot 2024-10-01 142611.png"></li><br>
+    <li><b>< li ></b>- List item tag used in ordered and unordered lists.<br>
+    <img src="Screenshot 2024-10-01 143057.png"></li><br>
+    <li><b>< dl ></dl> Definition List</b>- Displays a list of terms and their descriptions.<br>
+    <img src="Screenshot 2024-10-01 142826.png"></li>
+</ol>
+<hr> 
+
+<h1>Tables in HTML</h1>
+<ol>
+    <li><b>< table ></b>- Defines a table. <br>
+    <img src="Screenshot 2024-10-05 170316.png"></li><br>
+    <li><b><  thead ></b>- It tag is used to give the header to a table. <br>
+    <img src="Screenshot 2024-12-03 040423.png" alt=""></li>
+    <li><b>< tfoot ></b> - It tag is used to give footer to a table. <br>
+    <img src="Screenshot 2024-12-03 040440.png" alt=""></li>
+    <li><b>< tr ></b>- Defines a table row.<br>
+    <img src="Screenshot 2024-10-05 170510.png"></li><br>
+    <li><b>< td ></b>- Defines a table cell containing data.<br>
+    <img src="Screenshot 2024-10-05 170510.png"></li><br>
+    <li><b>< th ></b>- It is used to give header in the cell of a table.<br>
+    <img src="Screenshot 2024-10-05 170908.png"><br></li>
+    <li><b>< caption ></b> - To add title to your table <br>
+    <img src="Screenshot 2024-12-03 035953.png" alt=""></li>
+    <li><b>< colspan ></b> - Its an attribute to make a cell span over multiple columns <br>
+    <img src="Screenshot 2024-12-03 035030.png" alt=""></li><br>
+    <li><b>< Rowspan ></b> - Its an attribute to make a cell span over multiple rows <br>
+    <img src="Screenshot 2024-12-03 035056.png" alt=""></li><br>
+</ol>
+<p><b>Example of Table</b><br>
+    < table ><br>
+    < thead >
+    Header
+    < /thead > <br>
+        < tr ><br>
+            < th >First Name< /th ><br>
+            < th >Age< /th ><br>
+        < /tr ><br>
+        < tr ><br>
+            < td >Gaurav< /td ><br>
+            < td >23< /td ><br>
+        < /tr ><br>
+        <tfoot>
+            Footer
+        </tfoot>
+    < /table ><br>
+    <br>
+    <b><u>Output</u></b>
+ <table>
+<thead>
+    Header
+</thead>
+    <caption><b>Employee Details</b></caption>
+        <tr>
+            <th>First Name</th>
+            <th>Age</th>
+            <th>Designation</th>
+            <th>Favourite Language</th>
+        </tr>
+        <tr>
+            <td>Gaurav</td>
+            <td>23</td>
+            <td colspan="2">Programmer</td>
+            <td>Javascript</td>
+        </tr>
+        <tr>
+            <td>Gaurav A</td>
+            <td>24</td>
+            <td >Senior Programmer</td>
+            <td rowspan="2">Java</td>
+        </tr>
+        <tr>
+            <td>Gaurav A</td>
+            <td>25</td>
+            <td >Super Senior Programmer</td>
+            <td>Java</td>
+        </tr>
+        <tfoot>
+            Footer
+        </tfoot>
+    </table>
+</p>
+<hr>
+
+
+<h1>Forms in HTML</h1>
+<ol>
+    <li><b>< form ></b> - It is used to create HTML form for user input. </li><br>
+    <li><b>< label ></b> - This defines a label for many form elements. Its is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element. <br>
+    The for attribute of the < label > tag should be equal to the id attribute of the < input > element to bind them together. <br>
+    <img src="Screenshot 2024-12-04 024904.png"  alt=""></li> <br>
+    <li><b>< input ></b> - It is used to accept input in the form. An < input > element can be displayed in many ways, depending on the type attribute.</li><br>
+    <img src="Screenshot 2024-12-04 024754.png" height="300px" alt="">
+    <li><b>Radio Button</b> - It defines a radio button, radio button lets user select one of the limited number of choices. <br>
+    <img src="Screenshot 2024-12-04 030339.png" alt=""></li> <br>
+    <li><b>Checkboxes</b> - Checkboxes lets users select zero or more options of a limited number of choices. <br>
+    <img src="Screenshot 2024-12-04 031557.png" alt=""></li>
+    <li><b>< submit ></b> - defines a button for submitting the form data to a form-handler. <br><img src="Screenshot 2024-12-04 031627.png" alt=""></li>
+    <li><b>< Select ></b> -  It is used to select from dropdown menu. <br>
+    <img src="Screenshot 2024-12-04 035254.png" alt=""></li>
+</ol>
+<hr>
+
+<h3>About the developer</h3>
+<form action="post">
+   <div>
+    <label for="username">Name</label><br>
+    <input type="text" name="username" placeholder="Enter your name" autofocus><br>
+    <label for="Age">Age</label><br>
+    <input type="Age" name="Age" placeholder="Enter your Age" ><br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" placeholder="Enter your email id"><br>
+   </div> 
+   
+   <p><b>Choose your favorite language</b></p>
+   <div>
+    <input type="radio" id="Java" name="fav_language" value="Java">
+    <label for="Java">Java</label>
+    <input type="radio" id="Javascript" name="fav_language" value="Javascript">
+    <label for="Javascript">Javascript</label>
+    <input type="radio" id="Python" name="fav_language" value="Python">
+    <label for="Python">Python</label>
+    </div>
+    
+    <h4>Select all languages that you know</h4>
+    <div>
+    <input type="checkbox" id="First language" name="First language" value="Java">
+    <label for="First language">Java</label>
+    <input type="checkbox" id="First language" name="First language" value="Javascript">
+    <label for="First language">Javascript</label>
+    <input type="checkbox" id="First language" name="First language" value="Python">
+    <label for="First language">Python</label><br>
+   </div>
+   
+   <h4>Select your first language</h4>
+    <div>
+    <select name="First Language" id="" required>
+        <option value="Select">Select</option>
+        <option value="Java" required>Java</option>
+        <option value="Javascript" required>Javascript</option>
+        <option value="Python" required>Python</option>
+    </select><br>
+    <input type="submit" value="submit">
+   </div> 
+
+</form>
+<hr>
+
+<h1>SEO and Core web vitals</h1>
+<li ><b>What is a SEO</b> - SEO is the practice of optimizing a website to help search engines understand it and improve its visibility in search results. <br></li>
+<li><b>What are Core web vitals</b> - It's a set of user-focused metrics that search engine considers crucial for a smooth and engaging online experience. The Core Web Vitals metric is a critical ranking criterion for search engine optimization (SEO), and achieving these ranking factors can help your website rank higher in search results and provide a more engaging user experience. 
+</li>
+<ol> <h2>Core Web Vitals -</h2>
+    <li><b>Cumulative Layout Shift (CLS)</b> - Cumulative Layout Shift (CLS) measures visual stability. It is a metric that calculates all layout changes not caused by user interaction. If multiple elements on your page move around while the page is loading, the higher your CLS would be. The lower your CLS, the better your page score performance. <br> A CLS score of less than 0.1 is considered ideal for a webpage. Add height and width to avoid CLS</li>
+    <li><b>First Input Delay (FID)</b> - First Input Delay (FID) refers to the time it takes for a page to become interactive. You can say that it measures the duration it takes for an activity to occur on a page. More specifically, it measures the time it takes for users to actually do something on your page. <br>
+    What counts as an interaction? This can include the time it takes a user to choose an option from the menu, enter their email address into a field, or click on a CTA. <br>
+    The ideal FID measurement is less than 100 ms.</li>
+    <li><b>Largest Contentful Paint (LCP)</b> - LCP is the first core web vital metric that Google uses to calculate your page experience score. <br>
+    The largest Contentful Paint or LCP can be defined as the duration it takes for a page on your website to load from a user's perspective. In simple words, LCP is the time it takes for your user, from clicking on a link to seeing the majority of your website's content on the screen. The faster your page's largest element loads, the better your LCP score. <br>
+     LCP focuses on what truly matters in terms of page speed, i.e., a user's ability to see and interact with your page without obstruction. <br> 
+     The ideal LCP measurement is 2.5 seconds or faster</li>
+</ol>
+ <figure><img src="Screenshot 2024-12-03 044703.png" height="300px" alt=""></figure>
+</body>
+</html>
+
